@@ -1,0 +1,26 @@
+body {
+    background-color: wheat;
+}
+#container {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 600px;
+    height: 600px;
+    font-size: 0px;
+    max-width: 90%;
+    max-height: 65%;
+    background-color: white;
+}
+
+.tile {
+    display: inline-block;    
+    opacity: 0.1;
+  }
+
+  .clear-btn {
+      position: absolute;  
+      display: block; 
+      top: 85%;
+      left: 50%;
+  }
